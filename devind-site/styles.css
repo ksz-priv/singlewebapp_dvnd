@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* White text for better contrast against dark background */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    color: #ffcc00; /* Bright yellow for headers */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #ffcc00; /* Bright yellow for footer text */
+    background-color: #333;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Orange for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #cc5200; /* Darker orange on hover */
+}
+
+.about-me {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+}
+
+.skills {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+}
+
+.projects {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+}
+
+.project-card {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ffcc00; /* Bright yellow for footer text */
+}
